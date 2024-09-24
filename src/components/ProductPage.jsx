@@ -5,7 +5,7 @@ function ProductPage() {
     <div className="my-10 mx-10">
       <hr className="w-[100%] h-[2px] bg-blue-300" />
       <div className="grid grid-cols-2">
-        <div className="fl static">
+        <div className="">
           <div className="flex mt-10">
             <div className="mx-5 my-5 ">
               <ul>
