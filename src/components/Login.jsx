@@ -34,8 +34,7 @@ function Login() {
           </div>
         </form>
         <p className="self-center">Don't Have an account?</p>
-        {/* <Link to="/signup">SignUp</Link> */}
-        <a href="#" className="self-center mb-5 text-blue-900 font-bold">Signup</a>
+        <Link to="/vibecarton/signup" className="self-center mb-5 text-blue-900 font-bold">SignUp</Link>
       </div>
     </div>
   );

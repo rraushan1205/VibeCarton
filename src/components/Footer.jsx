@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-blue-300 w-[100%] h-52 px-10 mt-5 text-justify py-5">
+    <div className="bg-blue-300 w-[100%] h-52 px-10 mt-5 text-justify py-5 cursor-default">
       <article className="flex justify-center mt-5">
         <ul className="flex text-white ">
           <li className="hover:translate-y-[-10px] transition-all duration-[200ms] hover:shadow-[0_18px_18px_-7px_rgba(0,0,0,0.3)]">
@@ -11,7 +11,7 @@ function Footer() {
               fill="white"
               width="40"
               height="40"
-              enable-background="new 0 0 100 100"
+              enableBackground="new 0 0 100 100"
               viewBox="0 0 100 100"
               id="social"
             >
