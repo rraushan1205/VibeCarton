@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <nav className="h-14 w-[100%] bg-blue-300 flex justify-between px-10 cursor-default">
+    <nav className="h-14 w-[100%] bg-background flex justify-between px-10 cursor-default">
       <header className="text-[26px] text-white">🆅🅸🅱🅴🅲🅰🆁🆃🅾🅽</header>
       <div className="searchbar text-[14px] text-gray-400  flex items-center relative">
       <button type="submit" className="active:text-blue-800 absolute left-[5px] ">
@@ -30,9 +30,9 @@ function Navbar() {
       </div>
         <ul className="flex justify-around items-center gap-10 text-white text-[18px]">
           <li><Link to="/">Dashboard</Link></li>
-          <li><Link to="/categories">Categories</Link></li>
+          <li><Link to="/categories">Categories</Link></li> 
           <li><Link to="/contact">Contact Us</Link></li>
-          <li><Link to="/login">Login/SignUp</Link></li>
+          <li className="bg-[#151B26] hover:bg-[#151b267e] active:bg-[#040c1a] py-1 px-2 rounded-xl"><Link to="/login">Login/SignUp</Link></li>
         </ul>
     </nav>
   );

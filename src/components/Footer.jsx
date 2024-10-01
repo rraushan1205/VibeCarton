@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-blue-300 w-[100%] h-52 px-10 mt-5 text-justify py-5 cursor-default">
+    <div className="bg-[#2C3038] w-[100%] h-52 px-10 border-t-2 border-black pt-5 text-justify py-5 cursor-default">
       <article className="flex justify-center mt-5">
         <ul className="flex text-white ">
           <li className="hover:translate-y-[-10px] transition-all duration-[200ms] hover:shadow-[0_18px_18px_-7px_rgba(0,0,0,0.3)]">

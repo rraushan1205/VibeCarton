@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         fira: ["Fira Code", "monospace"],
       },
+      colors: {
+        'background': '#2C3038',
+      },
     },
   },
   plugins: [],

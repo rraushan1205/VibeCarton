@@ -17,9 +17,11 @@ import Contact from './components/Contact';
 function Layout() {
   return (
     <>
+    <div className='font-fira'>
       <Navbar />
       <Outlet /> {/* This renders the matched child route component */}
       <Footer />
+      </div>
     </>
   );
 }

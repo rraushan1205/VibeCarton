@@ -19,4 +19,22 @@
     height: 40px;
     display: inline-block;
   }
+  @layer components {
+    .animated-button:hover .arr-1 {
+      @apply -right-[25%];
+    }
+  
+    .animated-button:hover .arr-2 {
+      @apply left-4;
+    }
+  
+    .animated-button:hover .text {
+      @apply translate-x-3;
+    }
+  
+    .animated-button:hover .circle {
+      @apply w-[220px] h-[220px] opacity-100;
+    }
+  }
+  
 
